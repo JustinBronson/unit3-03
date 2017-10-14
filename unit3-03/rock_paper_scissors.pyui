@@ -1,0 +1,103 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 18}, {451, 47}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "question_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "326EDBD8-64E2-4917-921B-EACBC33F1DCF",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Choose either, rock, paper, or scissors by using a button below!",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{63, 100}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "rock_button_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Rock",
+          "uuid" : "271FA5C6-544E-4CEC-83FA-3703BEC96950",
+          "class" : "Button",
+          "name" : "rovk_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{199, 100}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "paper_button_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Paper",
+          "uuid" : "03329FE7-8191-446A-8B8F-FA82DBB30B5F",
+          "class" : "Button",
+          "name" : "paper_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{334, 100}, {81, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "scissors_button_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Scissors",
+          "uuid" : "F3CB573A-5402-41C3-8534-E085AF19721E",
+          "class" : "Button",
+          "name" : "scissors_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 160}, {451, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "70AB2879-7399-4B03-9D68-7CFF8536E303",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "answer_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
